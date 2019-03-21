@@ -1,0 +1,28 @@
+$primary-color: orange;
+
+html {
+    font-family: 'Consolas', monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $primary-color;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 42px;
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    max-width: 256px;
+}
